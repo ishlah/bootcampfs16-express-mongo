@@ -1,0 +1,13 @@
+GET http://localhost:8000/
+
+###
+POST http://localhost:8000/
+Content-Type: application/json
+
+{
+    "title" : "note 3",
+    "content" : "content 3"
+}
+
+###
+DELETE http://localhost:8000/66476df5e13f592432725daa
